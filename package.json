@@ -1,0 +1,17 @@
+{
+  "name": "rollout-todo-demo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "cd client && yarn && yarn run start"
+  },
+  "engines": {
+    "npm": "8.x",
+    "node": "17.x",
+    "yarn": "3.2.x"
+  },
+  "workspaces": [
+    "client",
+    "server"
+  ]
+}
